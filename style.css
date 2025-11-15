@@ -1,0 +1,71 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+/* tanda (*) untuk keseluruhan html */
+
+.container {}
+
+/* container-navbar */
+
+.container-navbar {
+    background-color: blue;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: red;
+    transition: 1,5s ease-in-out;
+    transition-delay: 1s;
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+}
+/* container-navbar end */
+
+/* container-content */
+.container-content {
+    background-color: blue;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+     height: 80vh;
+}
+
+.img-content {
+ widht: 50px;
+ height: 200px;
+}
+
+/* container-content end */
+
+/* container-footer */
+.container-footer {
+    height: 10vh;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h2-footer {
+    font-size: 30;
+
+}
+/* container-footer end */
